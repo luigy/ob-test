@@ -13,6 +13,8 @@ import Common.Api
 frontend :: Widget x ()
 frontend = do
   text "Hello World!"
+  text "Hello World!"
+  text "Hello World!"
   el "p" $ text $ T.pack commonStuff
   elAttr "img" ("src" =: static @"obelisk.jpg") blank
 
